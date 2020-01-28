@@ -1,0 +1,8 @@
+<!--pages/input/input.wxml-->
+<text>pages/input/input.wxml</text>
+<input />
+<input value="好好学习"/>
+<input type="number"/>
+<input type=""/>
+<input placeholder="请输入内容"/>
+<input bindinput="handleInput" bindfocus="handleFocus" bindblur="handleBlur"/>

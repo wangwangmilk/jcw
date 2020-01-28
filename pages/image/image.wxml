@@ -1,0 +1,12 @@
+<!--pages/image/image.wxml-->
+<image src="{{imagePath}}"/>
+<button bindtap="chooseImage">选择图片</button>
+<view wx:for="{{1}}">
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+bindload="imgLoad"
+lazy-load
+/>
+</view>
+<image  show-menu-by-longpress src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+mode="right"
+></image>

@@ -1,0 +1,9 @@
+<!--pages/view/view.wxml-->
+<text>pages/view/view.wxml</text>
+<view class="box">组件view</view>
+<view>我是2</view>
+<view class="box1" hover-class="active" hover-stay-time='0'>组件</view>
+
+<view class="box2" hover-class="click">
+<view class="box1" hover-class="active" hover-stop-propagation>组件1</view>
+</view>
