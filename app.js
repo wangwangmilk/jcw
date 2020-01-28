@@ -1,36 +1,30 @@
 App({
-  onLaunch:function(){
-    // 不会每次进入都创建，会后台保存两个小时
-    console.log('创建完成')
-    // wx.request({
-    //   url:''
-    // })
 
-    // wx.getUserInfo({
-    //   success:function(res){
-    //    console.log(res)
-    //   }
-    // })
+  /**
+   * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
+   */
+  onLaunch: function () {
+    
+  },
 
-    // setTimeout(function(){
-    //    const err = new Error()
-    //    throw err
-    // },1000)
-   
+  /**
+   * 当小程序启动，或从后台进入前台显示，会触发 onShow
+   */
+  onShow: function (options) {
+    
+  },
 
+  /**
+   * 当小程序从前台进入后台，会触发 onHide
+   */
+  onHide: function () {
+    
   },
-  onShow:function(option){
-    // 每次进入都显示
-    console.log(option)
-  },
-  onHide:function(){
-    // console.log('离开小程序')
-  },
-  onError:function(){
-    console.log('有错误了')
-  },
-  globalData:{
-    name:'旺旺',
-    age:28
+
+  /**
+   * 当小程序发生脚本错误，或者 api 调用失败时，会触发 onError 并带上错误信息
+   */
+  onError: function (msg) {
+    
   }
 })

@@ -1,2 +1,8 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<text>旺仔牛奶\n</text>
+<text selectable>哈哈哈\n</text>
+<text decode>5&gt;3\n</text>
+<text>hello world\n</text>
+<text space='nbsp'>hello world\n</text>
+<text space="ensp">hello world\n</text>
+<text space="emsp">hello world</text>
