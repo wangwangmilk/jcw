@@ -1,4 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-cpn":"/components/my-cpn/my-cpn",
+    "my-slot":"/components/my-slot/my-slot"
+  }
   
 }

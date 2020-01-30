@@ -1,1 +1,8 @@
 <view>开始练习</view>
+<my-cpn id="test"/>
+<button size="mini" bind:tap="handleBtnClick">按钮</button>
+<my-slot>
+<button size="mini" slot="center">按钮</button>
+<slider slot="right"></slider>
+<text slot="left">我是最上面的slot</text>
+</my-slot>

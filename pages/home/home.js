@@ -7,7 +7,16 @@ Page({
   data: {
 
   },
+  handleBtnClick(){
+    console.log(this.selectComponent('#test'))
+    const my = this.selectComponent('#test')
+    // my.setData({
+    //   counter:my.data.counter+10
+    // })
+    my.handleTab(10)
 
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */

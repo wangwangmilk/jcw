@@ -1,0 +1,6 @@
+<view>我是头部</view>
+<slot name="left"/>
+<slot name="center"/>
+<slot name="right"/>
+<view>我是尾部</view>
+<view>{{message}}</view>
