@@ -1,1 +1,6 @@
 <view>开始练习</view>
+<button size="mini" bind:tap="handleShowToast">showToast</button>
+<button size="mini" bind:tap="handleShowModal">showModal</button>
+<button size="mini" bind:tap="handleShowLoading">showLoading</button>
+<button size="mini" bind:tap="handleShowAction">showAction</button>
+<button open-type="share" size="mini">点击分享</button>
