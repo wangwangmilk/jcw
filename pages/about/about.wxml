@@ -6,3 +6,4 @@
 <text space='nbsp'>hello world\n</text>
 <text space="ensp">hello world\n</text>
 <text space="emsp">hello world</text>
+<button size="mini" bind:tap="handlePushCategory">跳转分类</button>

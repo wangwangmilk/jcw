@@ -7,12 +7,16 @@ Page({
   data: {
 
   },
-
+  handleBack(){
+    wx.navigateBack({
+     delta:2
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options)
   },
 
   /**
@@ -40,7 +44,13 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+     console.log('页面卸载')
+     console.log(getCurrentPages())
+     const pages = getCurrentPages()
+     const   home = pages[pages.length-2]
+     home.setData({
+       message:'呵呵呵'
+     })
   },
 
   /**

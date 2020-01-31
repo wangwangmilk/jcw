@@ -1,0 +1,3 @@
+<!--pages/comment/comment.wxml-->
+<text>pages/comment/comment.wxml</text>
+<navigator url="/pages/about/about" open-type="switchTab">跳转关于</navigator>

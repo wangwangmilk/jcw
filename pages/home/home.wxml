@@ -1,1 +1,4 @@
 <view>开始练习</view>
+<!-- <navigator url="/pages/category/category" open-type="reLaunch">跳转到分类</navigator> -->
+<navigator url="/pages/category/category?name=旺旺&age=28&height=1.88" >跳转到分类</navigator>
+<view>{{message}}</view>

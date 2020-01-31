@@ -1,8 +1,22 @@
 {
   "pages": [
-    "pages/home/home",
     "pages/about/about",
-    "pages/category/category"
+    "pages/home/home",
+    
+    "pages/category/category",
+    "pages/comment/comment",
+    "pages/detail/detail"
+    
   ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/comment/comment",
+      "text": "评论"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于"
+    }]
+  },
   "sitemapLocation": "sitemap80.json"
 }

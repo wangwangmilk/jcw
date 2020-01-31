@@ -1,4 +1,4 @@
-// pages/about/about.js
+// pages/comment/comment.js
 Page({
 
   /**
@@ -8,18 +8,11 @@ Page({
 
   },
 
-  handlePushCategory() {
-    wx.switchTab({
-      url: '/pages/comment/comment'
-    })
-
-
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+   console.log(options)
   },
 
   /**
